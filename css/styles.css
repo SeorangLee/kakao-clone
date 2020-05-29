@@ -1,8 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Roboto:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans:wght@300;400;700&family=Roboto:wght@700&display=swap');
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
+@import "friend.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
 
 *{
     box-sizing: border-box;
@@ -12,9 +18,14 @@ body{
     background-color: :white;
     padding:10px 20px;
     color: #020202;
-    font-family: 'Black Han Sans', 'Roboto',  sans-serif;
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 a{
     color:inherit;
+    text-decoration:none;
 }
+
+

@@ -40,27 +40,33 @@
       </div>
     </header>
     <main class="chats">
-      <ul class="chatslist">
-        <a href="chat.html">
-          <li class="chats__chat chat">
-            <div class="chat__column">
-              <div class="chat__content">
+      <ul class="chats__list">
+        <li class="chats__chat chat">
+          <a href="chat.html">
+            <div class="chats__chat friend friend--lg">
+              <div class="friend__column">
                 <img
                   src="images/avatar.jpg"
                   alt=""
-                  class="chat__avatar g-avatar"
+                  class="m-avatar friend__avatar"
                 />
-                <span class="chat__username">
-                  Lynn
+                <div class="friend__content">
+                  <span class="friend__name">
+                    Seung min
+                  </span>
+                  <span class="friend__bottom-text">
+                    Goming home!
+                  </span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <span class="chat__timestamp">
+                  March 8
                 </span>
-                <span class="chat__preview">Going home</span>
               </div>
             </div>
-            <div class="chat__column">
-              <span class="chat__timestamp">Yesterday</span>
-            </div>
-          </li>
-        </a>
+          </a>
+        </li>
       </ul>
     </main>
     <nav class="nav">
